@@ -1,0 +1,60 @@
+/* Form styles */
+
+@import "./body.css";
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  color: #fff;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--night-black);
+  color: #fff;
+  font-size: 14px;
+  box-shadow: 0 0 5px #52d7ee, 0 0 5px #52d7ee, 0 0 5px #52d7ee;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 10px #f0f7f0, 0 0 10px #f0f7f0, 0 0 10px #f0f7f0, 0 0 10px #f0f7f0;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: var(--night-black);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #52d7ee, 0 0 5px #52d7ee, 0 0 10px #52d7ee, 0 0 10px #52d7ee;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--night-black);
+}
+
+button[type="submit"]:active {
+  background-color: #111;
+  box-shadow: 0 0 5px #f0f7f0, 0 0 5px #f0f7f0, 0 0 5px #f0f7f0, 0 0 5px #f0f7f0;
+}

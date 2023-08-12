@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* Skills section */
+#skills {
+  width: 100%;
+  height: max-content;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+}
+
+#skillset {
+  margin: 2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+#skillset h4 {
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 2px solid #7a7878;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#skills h4:hover {
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #9ad29a;
+  }
+  100% {
+    box-shadow: 0 0 15px #9ad29a, 0 0 25px #9ad29a, 0 0 35px #9ad29a;
+  }
+}

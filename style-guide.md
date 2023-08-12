@@ -1,0 +1,2 @@
+- we will go with a clean and modern design, this portfolio design is inspired by someone on dribbble.com, you can go explore
+- here I have chosen a space theme, you can get creative with it, go for somthing that shows your personal interests so that your portfolio feels personal and interesting
