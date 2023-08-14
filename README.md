@@ -6,32 +6,55 @@
 
 Hello there! 👋
 
-Thank you for taking part in this HTML+CSS Workshop. This project will help you enhance your HTML and CSS skills by building a personal portfolio landing page. I'll guide you through this challenge, but read up content below, as if it is a challenge you have to work out on your own!
+Thank you for taking part in this HTML+CSS Workshop by Lecturely. This project will help you learn HTML and CSS by building a hands-on project. It is going to be a personal portfolio landing page, from this workshop you'll walk away with a personal portfolio, you can keep updating it with your latest projects and development/designing skills.
 
 **By the end of this workshop you should be equipped with HTML+CSS, to build something from scratch, on your own**
 
+So I request you to think of this workshop as a coding challenge, you are provided all the starting material below. Although I'll guide you through this challenge, read the content below as if it is a challenge you must work out on your own!
+
+## Plan for your next three days
+
+### Day-1 Introduction to Web Development and HTML Basics
+- Workshop Introduction and Icebreaker 
+- Understanding the Web 
+- Setting Up the Development Environment
+- Introduction to HTML and the basic structure of a web page
+- Working with other HTML elements
+- Creating the Basic Structure of our portfolio Web Page 
+- Exercise: Building the Structure of a Simple Web Page 
+- Quiz Session 
+
 ## The Challenge
 
-Your task is to build a personal portfolio landing page that closely matches the provided design.
+Your task is to build a personal portfolio landing page that closely matches the design that was provided. This Portfolio website is divided into five sections. You are also provided with the wireframes for each section to understand the structure of the HTML Document, so look at the wireframes before starting out with a section.
 
-Your users should be able to:
+**Your users should be able to:**
 
-- View the landing page in an optimal layout based on their device's screen size, such as desktop, Tablets, mobile
-- Observe hover states for interactive elements
-- Navigate through testimonials using a horizontal slider
-- Receive an error message if the Contact me form is submitted and:
-  - The input field is empty
-  - The email address is incorrectly formatted
+- View the landing page with an hero image, in an optimal layout based on their device's screen size, such as desktop, Tablet, mobile
+- Observe hover states for interactive elements which are
+    - the Contact Me button which leads the user to the contact form,
+    - Explore Now Button which leads the user to your work section
+- The skills elements in the skills section are not interactive, but they'll glow on hover (you know just for fun!)
 
-If you need any support or have questions during the challenge, feel free to ask me for assistance, or discuss it with your peers, after all it has to be interactive, else it is a yet another online course, you're tired of repeating 10 secs back ;).
+If you need any support or have questions during the challenge, feel free to ask me for assistance, or discuss it with your peers, after all, it has to be interactive, else it is yet another online course, which you're tired of repeating 10 secs back ;).
+
+## Resources 
+
+### Day-1
+- [Create your Github Account](https://github.com/)
+- [Download VScode](https://code.visualstudio.com/download)
+
+### Day-2
+
+### Day-3
 
 ## Project Assets
 
-In the `/design` folder, you will find the design files for both mobile and desktop versions of the landing page. Please refer to these designs as you work on the project.
+- In the `/design` folder, you will find the design files for both mobile and desktop versions of the landing page. Please refer to these designs as you work on the project.
 
-The designs are in static JPG format, so you'll need to use your judgment for styles like `font-size`, `padding`, and `margin`.
+- The designs are in static JPG format, so you'll need to use your judgment for styles like `font-size`, `padding`, and `margin`. 
 
-The `/images` folder contains all the necessary assets, which are already optimized for use in the project.
+- The `/images` folder contains all the necessary assets, which are already optimized for use in the project, they are going to be in SVG format because vector-based images scale way better than pixel-based images.
 
 **Note** : We will refer to the `style-guide.md` file for essential information, such as the color palette and fonts to be used.
 
@@ -40,11 +63,11 @@ The `/images` folder contains all the necessary assets, which are already optimi
 Here's a suggested process, but you're not obligated to follow it:
 
 1. Initialize your project as a public repository on [GitHub](https://github.com/). Having a repository will make it easier to share your code with others if you need assistance. If you're not familiar with creating a repository, you can refer to the [Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will enable you to share the URL of your project with others if you require help. There are various ways to achieve this, and we recommend some options below.
-3. Carefully examine the designs to plan how you'll approach the project. This step is crucial for thinking ahead and creating reusable CSS classes.
-4. Start by structuring your content using HTML. Writing your HTML first will help ensure your content is well-organized.
-5. Develop the base styles for your project, including general content styles such as `font-family` and `font-size`.
-6. Begin styling from the top of the page and work your way down. Make sure to complete each section before moving on to the next.
+2. Carefully examine the designs to plan how you'll approach the project. This step is crucial for thinking ahead and creating reusable CSS classes.
+3. Start by structuring your content using HTML. Writing your HTML first will help ensure your content is well-organized.
+4. Develop the base styles for your project, including general content styles such as `font family` and `font-size`.
+5. Begin styling from the top sections of the page and work your way down. Make sure to complete each section before moving on to the next.
+6. Once you're done with your website on localhost, host it on GitHub pages. Configure your repository to publish your code to a web address. This will enable you to share the URL of your portfolio website to showcase it anywhere. There are various ways to achieve this, and we will go through the options below.
 
 ## Deploying Your Project
 
