@@ -43,6 +43,8 @@ If you need any support or have questions during the challenge, feel free to ask
 ### Day-1
 - [Create your Github Account](https://github.com/)
 - [Download VScode](https://code.visualstudio.com/download)
+- ![Live Server](https://github.com/nis6/Portfolio-Landing-Page/assets/47380034/5a39b9c2-a507-4ac9-9728-75deb0130329)
+
 
 ### Day-2
 
