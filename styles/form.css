@@ -1,14 +1,21 @@
 /* Form styles */
 
-@import "./body.css";
+form h1 {
+  color: var(--secondary-color);
+}
 
 form {
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
 form div {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
   margin-bottom: 20px;
 }
 
@@ -23,12 +30,11 @@ input[type="email"],
 textarea {
   width: 300px;
   padding: 10px;
-  border: none;
-  border-radius: 5px;
   background-color: var(--night-black);
   color: #fff;
   font-size: 14px;
-  box-shadow: 0 0 5px #52d7ee, 0 0 5px #52d7ee, 0 0 5px #52d7ee;
+  border: solid white 1px;
+  border-radius: 20px;
 }
 
 input[type="text"]:focus,
@@ -40,21 +46,18 @@ textarea:focus {
 }
 
 button[type="submit"] {
-  padding: 10px 20px;
-  background-color: var(--night-black);
+  padding: 0.8rem 1.5rem;
+  background-color: var(--secondary-color);
   color: #fff;
-  border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   font-size: 16px;
   cursor: pointer;
-  box-shadow: 0 0 5px #52d7ee, 0 0 5px #52d7ee, 0 0 10px #52d7ee, 0 0 10px #52d7ee;
 }
 
 button[type="submit"]:hover {
-  background-color: var(--night-black);
+  opacity: 0.8;
 }
 
 button[type="submit"]:active {
-  background-color: #111;
   box-shadow: 0 0 5px #f0f7f0, 0 0 5px #f0f7f0, 0 0 5px #f0f7f0, 0 0 5px #f0f7f0;
 }

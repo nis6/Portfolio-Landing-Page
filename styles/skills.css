@@ -17,7 +17,7 @@
 }
 
 #skillset h4 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 10px;
   padding: 10px 20px;
   border-radius: 25px;
@@ -33,9 +33,9 @@
 
 @keyframes glow {
   0% {
-    box-shadow: 0 0 5px #9ad29a;
+    box-shadow: 0 0 5px #7a7878;
   }
   100% {
-    box-shadow: 0 0 15px #9ad29a, 0 0 25px #9ad29a, 0 0 35px #9ad29a;
+    box-shadow: 0 0 15px #7a7878, 0 0 25px #7a7878, 0 0 35px #7a7878;
   }
 }

@@ -1,6 +1,6 @@
-#navbar {
+nav {
   display: flex;
-  padding: 1rem 2rem;
+  padding: 2rem;
   justify-content: space-between;
 }
 
@@ -13,9 +13,16 @@ nav ul {
 nav li {
   display: inline;
   margin-right: 10px;
+  padding: 1.5rem;
+  font-size: 1.2rem;
 }
 
 nav a {
   text-decoration: none;
-  color: #fff;
+  color: #fb8460;
+}
+
+nav a:active,
+a:hover {
+  color: #8d452d;
 }
