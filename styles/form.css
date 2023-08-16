@@ -44,20 +44,3 @@ textarea:focus {
   outline: none;
   box-shadow: 0 0 10px #f0f7f0, 0 0 10px #f0f7f0, 0 0 10px #f0f7f0, 0 0 10px #f0f7f0;
 }
-
-button[type="submit"] {
-  padding: 0.8rem 1.5rem;
-  background-color: var(--secondary-color);
-  color: #fff;
-  border-radius: 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-button[type="submit"]:hover {
-  opacity: 0.8;
-}
-
-button[type="submit"]:active {
-  box-shadow: 0 0 5px #f0f7f0, 0 0 5px #f0f7f0, 0 0 5px #f0f7f0, 0 0 5px #f0f7f0;
-}
