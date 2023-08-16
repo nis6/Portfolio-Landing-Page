@@ -1,0 +1,17 @@
+footer {
+  height: 200px;
+  background-color: var(--secondary-color);
+}
+
+.socials {
+  display: flex;
+  gap: 2rem;
+}
+
+.address {
+  display: flex;
+  color: var(--pitch-black);
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+}
