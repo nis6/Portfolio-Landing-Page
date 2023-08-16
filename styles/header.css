@@ -12,6 +12,10 @@
   text-align: start;
 }
 
+.hero-text h1 {
+  text-align: start;
+}
+
 .illustration {
   width: 40%;
   border-radius: 100px;
