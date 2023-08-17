@@ -1,9 +1,5 @@
 /* Form styles */
 
-form h1 {
-  color: var(--secondary-color);
-}
-
 form {
   margin-top: 5rem;
   display: flex;
