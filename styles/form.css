@@ -13,6 +13,9 @@ form div {
   justify-content: space-between;
   width: 40%;
   margin-bottom: 20px;
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 }
 
 label {
@@ -31,6 +34,9 @@ textarea {
   font-size: 14px;
   border: solid white 1px;
   border-radius: 20px;
+  @media (max-width: 800px) {
+    width: 200px;
+  }
 }
 
 input[type="text"]:focus,
