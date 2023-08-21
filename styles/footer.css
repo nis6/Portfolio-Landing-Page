@@ -11,6 +11,7 @@ footer {
 
 .address {
   display: flex;
+  margin-top: 2rem;
   color: var(--pitch-black);
   align-items: end;
   justify-content: end;
