@@ -1,12 +1,12 @@
 # Lecturely - Personal Portfolio Landing Page
 
-![Design preview for the Personal Portfolio Landing Page ](./design/desktop-preview.jpg)
+![Desktop Preview of Portfolio Site](image.png)
 
 ## Introduction
 
 Hello there! 👋
 
-Thank you for taking part in this HTML+CSS Workshop by Lecturely. This project will help you learn HTML and CSS by building a hands-on project. It is going to be a personal portfolio landing page, from this workshop you'll walk away with a personal portfolio, you can keep updating it with your latest projects and development/designing skills.
+Thank you for taking part in this HTML+CSS Workshop by Lecturely. This project will help you learn HTML and CSS by building a hands-on project. It is going to be a personal portfolio landing page, from this workshop you'll walk away with a personal portfolio. You can keep updating this portfolio with your latest projects and development/designing skills.
 
 **By the end of this workshop you should be equipped with HTML+CSS, to build something from scratch, on your own**
 
@@ -14,15 +14,36 @@ So I request you to think of this workshop as a coding challenge, you are provid
 
 ## Plan for your next three days
 
-### Day-1 Introduction to Web Development and HTML Basics
-- Workshop Introduction and Icebreaker 
-- Understanding the Web 
+#### Day-1 Introduction to Web Development and HTML Basics
+
+- Workshop Introduction and Icebreaker
+- Understanding the Web
 - Setting Up the Development Environment
 - Introduction to HTML and the basic structure of a web page
 - Working with other HTML elements
-- Creating the Basic Structure of our portfolio Web Page 
-- Exercise: Building the Structure of a Simple Web Page 
-- Quiz Session 
+- Creating the Basic Structure of our portfolio Web Page
+- Exercise: Building the Structure of the portfolio site
+- Quiz Session
+
+---
+
+#### Day-2 CSS Fundamentals and Styling
+
+- Recap of Day-1 and quiz review
+- Introduction to CSS and its Role in Web Developement
+- CSS Selectors and Properties
+- CSS Box Model: Understanding Element Dimensions
+- Default styling and layout of HTML
+- Key Features of the CSS
+- CSS Flexbox
+- Styling the Portfolio sections
+
+### Day-3 Advance CSS and Responsive Design.
+
+- CSS Animations and Transitions
+- Media Queries
+- Viewport Meta Tag
+- Adding responsiveness to portfolio sections
 
 ## The Challenge
 
@@ -32,31 +53,27 @@ Your task is to build a personal portfolio landing page that closely matches the
 
 - View the landing page with an hero image, in an optimal layout based on their device's screen size, such as desktop, Tablet, mobile
 - Observe hover states for interactive elements which are
-    - the Contact Me button which leads the user to the contact form,
-    - Explore Now Button which leads the user to your work section
+  - the Contact Me button which leads the user to the contact form,
+  - Explore Now Button which leads the user to your work section
 - The skills elements in the skills section are not interactive, but they'll glow on hover (you know just for fun!)
 
 If you need any support or have questions during the challenge, feel free to ask me for assistance, or discuss it with your peers, after all, it has to be interactive, else it is yet another online course, which you're tired of repeating 10 secs back ;).
 
-## Resources 
+## Resources
 
-### Day-1
 - [Create your Github Account](https://github.com/)
 - [Download VScode](https://code.visualstudio.com/download)
 - ![Live Server](https://github.com/nis6/Portfolio-Landing-Page/assets/47380034/5a39b9c2-a507-4ac9-9728-75deb0130329)
 
-
-### Day-2
-
-### Day-3
-
 ## Project Assets
 
-- In the `/design` folder, you will find the design files for both mobile and desktop versions of the landing page. Please refer to these designs as you work on the project.
+- In the `/design` folder, you will find the final designs files for both mobile and desktop versions of the landing page.Please take a moment to review these thoroughly before diving into the workshop.
 
-- The designs are in static JPG format, so you'll need to use your judgment for styles like `font-size`, `padding`, and `margin`. 
+- In the `/Wireframes` folder, you will find the design/sketches each section os the portfolio website. Please refer to these as you work though this project.
 
-- The `/images` folder contains all the necessary assets, which are already optimized for use in the project, they are going to be in SVG format because vector-based images scale way better than pixel-based images.
+- The designs are in static JPG format, so you'll need to use your judgment for styles like `font-size`, `padding`, and `margin`.
+
+- The `/assets` folder contains all the necessary assets, which are already optimized for use in the project, they are going to be in SVG format because vector-based images scale way better than pixel-based images.
 
 **Note** : We will refer to the `style-guide.md` file for essential information, such as the color palette and fonts to be used.
 
@@ -79,7 +96,7 @@ As mentioned earlier, there are several free options available for hosting your 
 - [Vercel](https://vercel.com/)
 - [Netlify](https://www.netlify.com/)
 
-You can choose any of these solutions or select another trusted provider. For further information, you can read about our [recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+However we are going to deploy on github pages.
 
 # Note for author
 
