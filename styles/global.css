@@ -64,12 +64,12 @@ button:hover {
   cursor: pointer;
 }
 
-button.secondary {
+.secondary {
   border: solid white 1px;
   background-color: transparent;
 }
 
-button.secondary:hover {
+.secondary:hover {
   opacity: 0.5;
 }
 
@@ -79,12 +79,4 @@ button.tertiary {
 
 button.tertiary:active {
   box-shadow: 0 0 5px #f0f7f0, 0 0 5px #f0f7f0, 0 0 5px #f0f7f0, 0 0 5px #f0f7f0;
-}
-
-/* Footer styles */
-footer {
-  background-color: #111;
-  padding: 20px;
-  text-align: center;
-  color: #fff;
 }
