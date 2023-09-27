@@ -1,24 +1,29 @@
 .project-box {
+  margin-top: 1.5rem;
   display: flex;
   flex-wrap: wrap;
+  padding: 1rem;
+  gap: 1.5rem;
   justify-content: center;
   align-items: center;
   @media (max-width: 600px) {
     flex-direction: column;
+    padding: 0;
   }
 }
 
 .project-card > img {
   width: 350px;
-  border: red solid 1px;
+  @media (max-width: 600px) {
+    width: 300px;
+  }
 }
 
 .project-card {
   flex-basis: 350px;
-  background-color: #ca2858;
+  background-color: var(--pink);
   border-radius: 2rem;
   padding: 1.5rem;
-  margin: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
